@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/style.css" rel="stylesheet" />
+    <title>Responsive Div Example</title>
+  </head>
+  <body class="flex-col">
+    <!-- Responsive Div Block -->
+    <div class="bg-blue-500 p-4 text-white mb-5">
+      <!-- Base Styles (applies to all breakpoints) -->
+      <p class="mb-2">Base Styles (applies to all breakpoints)</p>
+
+      <!-- Small Screen (sm) Styles -->
+      <p class="sm:bg-green-500 sm:p-2 sm:text-yellow-900 mb-2">
+        Small Screen (sm) Styles
+      </p>
+
+      <!-- Medium Screen (md) Styles -->
+      <p class="md:bg-red-500 md:p-4 md:text-white mb-2">
+        Medium Screen (md) Styles
+      </p>
+
+      <!-- Large Screen (lg) Styles -->
+      <p class="lg:bg-purple-500 lg:p-6 lg:text-yellow-300 mb-2">
+        Large Screen (lg) Styles
+      </p>
+
+      <!-- Extra Large Screen (xl) Styles -->
+      <p class="xl:bg-indigo-500 xl:p-8 xl:text-white">
+        Extra Large Screen (xl) Styles
+      </p>
+    </div>
+    <div>
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded sm:bg-green-500 sm:hover:bg-green-700 md:bg-red-500 md:hover:bg-red-700 lg:bg-purple-500 lg:hover:bg-purple-700 xl:bg-indigo-500 xl:hover:bg-indigo-700"
+      >
+        Responsive Button
+      </button>
+    </div>
+  </body>
+</html>
